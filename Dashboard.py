@@ -88,7 +88,7 @@ def main():
     st.sidebar.markdown(custom_css, unsafe_allow_html=True)
 
     # Streamlit layout
-    st.sidebar.image("data/logo1.png")
+    st.sidebar.image("logo1.png")
     st.sidebar.header("Please Filter Here:")
 
     with st.sidebar:
